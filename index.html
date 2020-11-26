@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>MPMP19 Squares of Primes (The 19 challenge)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>MPMP19, "The 19 Challenge"</h1>
+
+        <h2>Check if a number is a valid solution:</h2>
+        <span>Number: </span><input type="number" id="numberInput" name="Your number"><span> </span><button id="checkButton">Check</button>
+        <p id="checkOutput">You have not yet checked a number</p>
+
+        <br><br>
+
+        <h2>Use my code to calculate answers:</h2>
+        <p>I suggest starting small, as the process can take quite a while to complete for larger numbers</p>
+        <span>Calculate for primes smaller than: </span><input type="number" id="maxNumInput" name="Max number"><span> </span><button id="calculateButton">Calculate</button>
+        <br><br>
+        <p id="calcOutputParagraph"></p>
+        <ul id="calcOutput">
+        </ul>
+
+        <script src="mpmp19.js"></script>
+    </body>
+</html>
